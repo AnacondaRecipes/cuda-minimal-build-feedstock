@@ -1,4 +1,4 @@
-{% set version = "12.8.1" %}
+{% set version = "12.8.2" %}
 
 package:
   name: cuda-minimal-build
@@ -40,7 +40,5 @@ about:
   dev_url: https://docs.nvidia.com/cuda/index.html
 
 extra:
-  skip-lints:
-    - license_file_overspecified
   recipe-maintainers:
     - conda-forge/cuda
